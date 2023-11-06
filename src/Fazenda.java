@@ -49,43 +49,11 @@ public class Fazenda {
     }
 
     public boolean validarCava(Fazendeiro jogador, int escolha) {
-        if (jogador == jogador1) {
-            return (escolha >= 1 && escolha <= 6 && cavasDoJogador1.get(escolha - 1).getContarSemente() > 0);
-        } else {
-            return (escolha >= 1 && escolha <= 6 && cavasDoJogador2.get(escolha - 1).getContarSemente() > 0);
-        }
+
+        return true;
     }
 
     public void moverSementes(Fazendeiro jogador, int escolha) {
-        List<Cava> cavas = (jogador == jogador1) ? cavasDoJogador1 : cavasDoJogador2;
-        Cava cavaEscolhida = cavas.get(escolha - 1);
-        int sementes = cavaEscolhida.getContarSemente();
-        cavaEscolhida.removerSementes();
-
-        for (int i = 0; i < sementes; i++) {
-            int posicaoAtual = (escolha - 1 + i) % 6;
-            if (jogador == jogador1 && posicaoAtual == 5) {
-                // Se a última semente cair no próprio silo, o jogador ganha outra jogada.
-                jogador.getSilo().addSeed();
-            } else {
-                cavas.get(posicaoAtual).addSeed();
-            }
-        }
-
-        // Capturar sementes, se aplicável
-        int ultimaPosicao = (escolha - 1 + sementes - 1) % 6;
-        if (jogador == jogador1 && ultimaPosicao >= 0 && ultimaPosicao <= 5 && cavas.get(ultimaPosicao).getContarSemente() == 1) {
-            int oposta = 5 - ultimaPosicao;
-            if (cavasDoJogador2.get(oposta).getContarSemente() > 0) {
-                int sementesCapturadas = cavasDoJogador2.get(oposta).removerSementes();
-                jogador1.getSilo().adicionarSementes(sementesCapturadas);
-            }
-        } else if (jogador == jogador2 && ultimaPosicao >= 0 && ultimaPosicao <= 5 && cavasDoJogador1.get(ultimaPosicao).getContarSemente() == 1) {
-            int oposta = 5 - ultimaPosicao;
-            if (cavasDoJogador1.get(oposta).getContarSemente() > 0) {
-                int sementesCapturadas = cavasDoJogador1.get(oposta).removerSementes();
-                jogador2.getSilo().adicionarSementes(sementesCapturadas);
-            }
-        }
+        
     }
 }
