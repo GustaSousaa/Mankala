@@ -1,0 +1,66 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>=.</help_text><element><id>UMLClass</id><coordinates><x>630</x><y>70</y><w>160</w><h>70</h></coordinates><panel_attributes>Fazenda
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>70</y><w>160</w><h>70</h></coordinates><panel_attributes>Fazendeiro
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>200</y><w>160</w><h>70</h></coordinates><panel_attributes>Casa
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>640</x><y>300</y><w>160</w><h>70</h></coordinates><panel_attributes>Semente
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>190</y><w>160</w><h>70</h></coordinates><panel_attributes>Silo
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>440</y><w>160</w><h>70</h></coordinates><panel_attributes>Kalah
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>640</x><y>420</y><w>160</w><h>70</h></coordinates><panel_attributes>Armazem
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>90</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>130;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>130</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>210</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>140</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>220</y><w>90</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>260</y><w>110</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>16;10;90;80</additional_attributes></element><element><id>Relation</id><coordinates><x>790</x><y>250</y><w>100</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>250</y><w>160</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;170;140;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>330</x><y>0</y><w>670</w><h>530</h></coordinates><panel_attributes>&lt;&lt;domínio&gt;&gt;
+&lt;&lt;Problema Kalah&gt;&gt;
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>260</y><w>160</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>140;160;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>380</x><y>590</y><w>440</w><h>140</h></coordinates><panel_attributes>&lt;&lt;domínio&gt;&gt;
+&lt;&lt;Físico&gt;&gt;
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>640</y><w>160</w><h>70</h></coordinates><panel_attributes>Tabuleiro
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>640</y><w>160</w><h>70</h></coordinates><panel_attributes>Buraco
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>660</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>480</y><w>30</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;160</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>380</y><w>290</w><h>270</h></coordinates><panel_attributes>&lt;&lt;domínio&gt;&gt;
+Jogo
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>440</y><w>160</w><h>70</h></coordinates><panel_attributes>Jogo
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>550</y><w>160</w><h>70</h></coordinates><panel_attributes>Jogador
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>10</x><y>550</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>10</x><y>600</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=..</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>10</x><y>550</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=..</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>10</x><y>620</y><w>100</w><h>70</h></coordinates><panel_attributes>adversario</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>500</y><w>70</w><h>70</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>50;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>470</y><w>120</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1090</x><y>530</y><w>160</w><h>100</h></coordinates><panel_attributes>Jogo
+--
+startGame( )
+makeMove( )
+isGameOver( )
+getWinner ( )</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1320</x><y>530</y><w>160</w><h>140</h></coordinates><panel_attributes>Fazenda
+--
+getCavasDoJogador1 ( )
+getCavasDoJogador2 ( )
+getSiloDoJogador1 ( )
+getSiloDoJogador2 ( )
+mostrarFazenda ( )
+validarCava ( )
+moverSementes ( )</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1560</x><y>530</y><w>160</w><h>90</h></coordinates><panel_attributes>Fazendeiro
+--
+getNome( )
+getCavas( )
+getSilo( )
+getSeedsRemaining( )</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1210</x><y>750</y><w>160</w><h>100</h></coordinates><panel_attributes>Cava
+--
+contarSemente( )
+addSeed( )
+removerSementes( )
+showCava( )</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1440</x><y>750</y><w>160</w><h>90</h></coordinates><panel_attributes>Silo
+--
+getContarsementes( )
+addSeed( )
+adicionarSementes( )
+showSilo( )</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1340</x><y>890</y><w>160</w><h>70</h></coordinates><panel_attributes>Semente
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1240</x><y>560</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1320</x><y>660</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>1450</x><y>660</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>1270</x><y>840</y><w>90</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;70;90</additional_attributes></element><element><id>Relation</id><coordinates><x>1490</x><y>830</y><w>90</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>70;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>1470</x><y>560</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>90</y><w>620</w><h>30</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;600;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1370</x><y>90</y><w>30</w><h>460</h></coordinates><panel_attributes>lt=..</panel_attributes><additional_attributes>10;440;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>510</y><w>30</w><h>280</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;260</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>760</y><w>890</w><h>30</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;870;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1100</x><y>620</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;150;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>600</x><y>780</y><w>100</w><h>70</h></coordinates><panel_attributes>Realize
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1080</x><y>470</y><w>670</w><h>520</h></coordinates><panel_attributes>&lt;&lt;domínio&gt;&gt;
+Java
+--
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

@@ -9,7 +9,7 @@ public class Silo {
         sementes++;
     }
 
-    public void adicionarSementes(int quantidade) {
+    public void addSementes(int quantidade) {
         sementes += quantidade;
     }
 
