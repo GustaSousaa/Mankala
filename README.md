@@ -2,6 +2,17 @@
 
 Este é um jogo Kalah simples implementado em Java. O jogo segue as regras padrão do Kalah, onde dois jogadores competem para capturar mais sementes que o adversário.
 
+## Regras do Jogo
+
+O jogo Kalah segue as seguintes regras gerais:
+
+- O tabuleiro possui 6 casas (cavas) para cada jogador e 2 silos (armazéns) no final.
+- No início, cada cava tem 4 sementes, e os silos estão vazios.
+- Cada jogador move sementes de uma de suas cavas para as cavas seguintes no sentido anti-horário.
+- Se a última semente cair no silo do jogador, ele ganha outra jogada.
+- Se a última semente cair em uma cava vazia do jogador, ele captura todas as sementes da cava oposta e as coloca em seu silo.
+- O jogo termina quando um dos jogadores não tem mais sementes em suas cavas. O jogador com mais sementes em seu silo vence. Em caso de empate, não há vencedor.
+
 ## Estrutura do Projeto
 
 A aplicação é dividida em várias classes:
@@ -12,6 +23,16 @@ A aplicação é dividida em várias classes:
 - `Silo`: Representa os silos dos jogadores.
 - `Semente`: Uma classe simples que representa as sementes.
 - `Fazendeiro`: Representa os jogadores do jogo.
+
+## Requisitos do Projeto
+
+A aplicação atende aos seguintes requisitos:
+
+- RF-1) A aplicação mostra o estado do tabuleiro (as casas e os armazéns de cada jogador, o número de sementes em cada casa e armazém, e a vez do jogador) e aguarda uma jogada do jogador. O jogador deve escolher uma das casas do seu lado do tabuleiro que tenha pelo menos uma semente.
+- RF-2) Se o jogador escolher uma casa válida, a aplicação pega todas as sementes dessa casa e as distribui uma a uma nas casas seguintes, no sentido anti-horário.
+- RF-3) Se a última semente cair no armazém do jogador, ele ganha outra jogada. Se a última semente cair em uma casa vazia do seu lado do tabuleiro, ele captura todas as sementes da casa oposta e as coloca no seu armazém.
+- RF-4) O jogo termina quando um dos jogadores não tiver mais sementes no seu lado do tabuleiro. Nesse caso, o outro jogador coloca todas as sementes restantes no seu armazém. O vencedor é o jogador que tiver mais sementes no seu silo. Em caso de empate, não há vencedor.
+- RF-5) A aplicação deve validar a jogada. Isso é: ela deve verificar se o jogador fez uma jogada válida de acordo com as regras e se aquela era de fato sua vez de jogar.
 
 ## Como Jogar
 
